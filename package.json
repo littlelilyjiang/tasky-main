@@ -9,7 +9,7 @@
     "build-icon": "electron-icon-builder --input=./public/icon.png --output=build --flatten",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "release": "cross-env GH_TOKEN=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 electron-builder"
+    "release": "cross-env GH_TOKEN=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 electron-builder"
   },
   "build": {
     "appId": "this.is.tasky",
@@ -65,15 +65,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alasolala/tasky.git"
+    "url": "git+https://github.com/littlelilyjiang/tasky-main.git"
   },
   "keywords": [],
   "author": "Alaso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alasolala/tasky/issues"
+    "url": "https://github.com/littlelilyjiang/tasky-main/issues"
   },
-  "homepage": "https://github.com/alasolala/tasky#readme",
+  "homepage": "https://github.com/littlelilyjiang/tasky-main#readme",
   "dependencies": {
     "react": "^17.0.2",
     "vue": "^2.6.14",
